@@ -1,8 +1,5 @@
-# Link Strand
-This service is a minimal proxy server with zero latency results analysis
-
-## Prerequisites
-[rust](https://www.rust-lang.org/tools/install)
+# Strand
+Strand is a minimal flexible proxy server which exposes the ability to piggy back the requests and proxy them with another hop.
 
 ## Tech
 [tokio::runtime](https://tokio.rs/)
@@ -10,10 +7,7 @@ This service is a minimal proxy server with zero latency results analysis
 [tokio::hyper](https://hyper.rs/)
 [reqwest](https://docs.rs/reqwest/latest/reqwest/)
 
-
-
-## Running
-
+## Running & Installation
 ```
 cargo run
 ```
